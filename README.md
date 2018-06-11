@@ -2,8 +2,6 @@
 
 # Ruby on Rails re-former application to practice Rails forms
 
-This is the forms application for 
-[*The Odin Project - Rails Course: Forms - Project 1*](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms).
 
 ## Getting started
 
@@ -34,3 +32,23 @@ $ rails server
 ```
 
 Open your browser at "localhost:3000"
+
+
+
+To run the RSpec test suite, first run:
+
+```
+$ rails db:seed ENV=test
+```
+
+Then run:
+
+```
+$ rspec
+```
+
+
+## Authors
+
+* **Kyle Lemon** - [jklemon17](https://github.com/jklemon17)
+* **Paul Rail** - [PolarisTLX](https://github.com/PolarisTLX)
